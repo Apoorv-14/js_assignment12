@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+   <body onload = checkscope();>
+      <script>
+        
+         var myVar = "global"; //global variable
+         function checkscope( ) {
+            var myVar = "local";  //local variable
+            document.write(myVar);
+         }
+         
+      </script>
+   </body>
+</html>
